@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/search-bar-app/static/css/main.cf5debc6.css",
+    "main.js": "/search-bar-app/static/js/main.7c538da0.js",
+    "static/js/787.1a1e1ffe.chunk.js": "/search-bar-app/static/js/787.1a1e1ffe.chunk.js",
+    "index.html": "/search-bar-app/index.html",
+    "static/media/close.svg": "/search-bar-app/static/media/close.01d8f1881e1d0c38c444.svg",
+    "main.cf5debc6.css.map": "/search-bar-app/static/css/main.cf5debc6.css.map",
+    "main.7c538da0.js.map": "/search-bar-app/static/js/main.7c538da0.js.map",
+    "787.1a1e1ffe.chunk.js.map": "/search-bar-app/static/js/787.1a1e1ffe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf5debc6.css",
+    "static/js/main.7c538da0.js"
+  ]
+}
