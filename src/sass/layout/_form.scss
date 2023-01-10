@@ -1,0 +1,114 @@
+.form__label {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.form__select {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.form__container {
+  display: flex;
+  gap: 15px;
+}
+
+.form__checkbox {
+  width: auto;
+}
+
+.form-cards {
+  margin-top: 30px;
+  color: black;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card-form {
+  background-color: $color-card-bgc;
+  width: 300px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 20px;
+}
+
+.switch__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $color-card-bgc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch__slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: $color-white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch__input:checked + .switch__slider {
+  background-color: $color-switch;
+}
+
+.switch__input:focus + .switch__slider {
+  box-shadow: 0 0 1px $color-switch;
+}
+
+.switch__input:checked + .switch__slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+}
+
+.switch__round {
+  border-radius: 20px;
+}
+
+.switch__round:before {
+  border-radius: 50%;
+}
+
+.form__submit {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: $color-btn-submit;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in;
+}
+
+.form__submit:hover {
+  opacity: 0.8;
+}
+
+.error-message {
+  color: $color-error;
+}

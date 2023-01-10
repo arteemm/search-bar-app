@@ -1,0 +1,19 @@
+.loading {
+  display: flex;
+  gap: 5px;
+}
+
+.loading__icon {
+  width: 10px;
+  height: 10px;
+  border: 2px solid $color-loading;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: .75s linear infinite loading-rotate;
+}
+
+@keyframes loading-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

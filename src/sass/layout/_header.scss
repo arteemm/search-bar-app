@@ -1,0 +1,19 @@
+.header__link {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
+
+.header {
+  padding: 15px 20px;
+  background-color: $color-header-bgc;
+}
+
+.navigation {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}

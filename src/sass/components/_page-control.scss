@@ -1,0 +1,22 @@
+.page-control {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 ;
+  gap: 25px;
+}
+
+.page-control__button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: $color-loading;
+  padding: 0;
+  font-size: medium;
+}
+
+.page-control__num {
+  align-self: center;
+  font-size: large;
+}
